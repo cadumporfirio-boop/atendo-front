@@ -16,7 +16,7 @@ visual e uma arquitetura moderna. Roda sem back-end, com dados fictícios, e est
 |---|---|---|
 | ![Painel](docs/painel.png) | ![Kanban](docs/kanban.png) | ![Andamento](docs/andamento.png) |
 -->
-## ✨ Funcionalidades
+## Funcionalidades
 
 - **Painel** com resumo por status, chamados por categoria e lista de atrasados
 - **Kanban** com arrastar e soltar entre os status
@@ -42,7 +42,7 @@ visual e uma arquitetura moderna. Roda sem back-end, com dados fictícios, e est
 | Camada de serviços isolada | trocar os dados fictícios por `HttpClient` sem mexer nas telas |
 | SCSS com variáveis CSS | tema escuro e componentes responsivos |
 
-## 🚀 Como rodar
+## Como rodar
 
 Pré-requisitos: [Node.js](https://nodejs.org) LTS.
 
@@ -56,7 +56,7 @@ npm start          # http://localhost:4200
 Para gerar o build de produção: `npm run build` (saída em `dist/atendo-front`).
 Na tela de login, qualquer e-mail e senha preenchidos entram na demonstração.
 
-## 📁 Estrutura
+## Estrutura
 
 ```
 src/app/
@@ -66,13 +66,13 @@ src/app/
   shared/   andamento, progresso, formulário, notificações e perfil
 ```
 
-## 🗺️ Próximos passos
+## Próximos passos
 
 - [ ] Integrar com a API Laravel (`HttpClient` e interceptor de autenticação)
 - [ ] Testes automatizados
 - [ ] Calendário, mural e conversas
 
-## 👤 Autor
+## Autor
 
 **Carlos Menin** · Desenvolvedor Full Stack Júnior
 [GitHub](https://github.com/cadumporfirio-boop)
